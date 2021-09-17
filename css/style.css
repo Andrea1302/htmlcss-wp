@@ -1,0 +1,113 @@
+/* Impostazioni Generali */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container_principale{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    width: 80%;
+    /* regole di debug */
+    height: 700px;
+    background-color:white;
+}
+
+/* Regole generali  */
+header, .first_msection{
+    margin-bottom: 10px;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+} 
+
+/* header  */
+#logo{
+    width: 170px;
+    border-right: 1px solid rgba(168, 168, 168,0.3);;
+    height: 60px;
+    background-image: url('../img/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+/* nav  */
+nav{
+    margin-bottom: 30px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+nav a{
+    font-size: 12px;
+    text-decoration: none;
+    color:rgb(168, 168, 168);
+}
+
+
+
+
+
+/* main */
+
+.first_msection{
+    /* regole di debug  */
+    height: 250px;
+    background-color: rgb(192, 155, 31);
+}
+.second_msection{
+    /* regole di debug  */
+    height: 300px;
+    
+}
+
+.titolo_sezione2{
+    margin-bottom: 1%;
+    /* regole di debug  */
+    height: 20%;
+    background-color: deepskyblue;
+}
+.container_secondsection{
+    /* regole di debug  */
+    height: 70%;
+    background-color:white;
+}
+.lati_principale{
+    float: left;
+    width: 20%;
+    /* regole di debug  */
+    
+    height: 100%;
+    background-color: dimgray;
+}
+/* #left, .lati_principale{
+    float: left;
+}
+#right, .lati_principale{
+    float: left;
+} */
+.principale{
+    width: 50%;
+    margin: 0 5%;
+    /* regole di debug  */
+    
+    height: 100%;
+    background-color: lightgrey;
+    float: left;
+}
+
+/* footer  */
+footer{
+     /* regole di debug */
+     height: 50px;
+     background-color: rgb(226, 147, 43);
+}
+
+
