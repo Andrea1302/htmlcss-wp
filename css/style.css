@@ -57,11 +57,34 @@ nav a{
 
 /* main */
 
-.first_msection{
-    /* regole di debug  */
-    height: 250px;
-    background-color: rgb(192, 155, 31);
+.immagine_sfondo{
+    background-image: url('../img/banner.jpg');
+    height: 380px;
+    position: relative; 
+    background-size: cover;
 }
+.opacity{
+    background-color: rgba(0, 0, 0, 0.151);
+    height: 100%;
+}
+.eyeshere{
+    font-size: 18px;
+    width: 55%;
+    padding: 0 0 30px 30px;
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   color: white;
+
+}
+.eyeshere div{
+    margin-bottom: 0;
+}
+.eyeshere p{
+    font-size: 8px;
+
+}
+
 .second_msection{
     /* regole di debug  */
     height: 300px;
@@ -69,6 +92,7 @@ nav a{
 }
 
 .titolo_sezione2{
+    margin-top: 30px;
     margin-bottom: 1%;
     /* regole di debug  */
     height: 20%;
